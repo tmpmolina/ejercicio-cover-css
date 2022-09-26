@@ -1,0 +1,33 @@
+body {
+  border: 0;
+}
+
+.cuadrado {
+  height: 450px;
+  width: 500px;
+  background-color: rgb(255 255 255);
+  position: relative;
+}
+
+.caratula {
+  height: 60%;
+  width: 55%;
+  background-color: rgb(67 66 66);
+  z-index: 1;
+  right: 215px;
+  bottom: 100px;
+  position: absolute;
+}
+
+.disco {
+  height: 55%;
+  width: 50%;
+  border-radius: 75%;
+
+  /* background-color: black; */
+  z-index: 0;
+  position: absolute;
+  background: radial-gradient(circle at center, white 0 3%, rgb(185 7 7) 3% 26%, black 26% 100%);
+  right: 10px;
+  bottom: 115px;
+}
